@@ -1,1 +1,1 @@
-XO Palette: Color Generator
+Aint Spotify: A Spotify clone.
