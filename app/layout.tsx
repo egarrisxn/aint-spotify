@@ -34,6 +34,7 @@ export const metadata: Metadata = {
     "shadcnui",
     "eslint",
     "vercel",
+    "spotify",
   ],
   openGraph: {
     title: siteConfig.title,
@@ -70,7 +71,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#020618" },
+    { media: "(prefers-color-scheme: dark)", color: "#000000" },
   ],
 };
 
@@ -88,11 +89,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <main>
-           
-            {children}
-            <SonnerToaster richColors closeButton position="bottom-right" />
-          </main>
+          {children}
+          <SonnerToaster richColors closeButton position="bottom-right" />
         </ThemeProvider>
       </body>
     </html>

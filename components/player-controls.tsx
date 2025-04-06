@@ -4,21 +4,15 @@ import { Play, SkipBack, SkipForward, Repeat, Shuffle, Volume2 } from "lucide-re
 export function PlayerControls() {
   return (
     <div className="flex items-center justify-between bg-black p-4 text-white">
-      <div className="flex items-center space-x-4">
-        <Image
-          src="/placeholder.svg?height=56&width=56"
-          width={56}
-          height={56}
-          alt="Now playing"
-          className="size-14"
-        />
+      <div className="hidden items-center space-x-4 sm:flex">
+        <Image src="/kotf.jpg" width={56} height={56} alt="Now playing" className="size-14" />
         <div>
-          <p className="font-semibold">Song Title</p>
-          <p className="text-sm text-gray-400">Artist Name</p>
+          <p className="font-semibold">Stick Tight</p>
+          <p className="text-sm text-gray-400">Terror</p>
         </div>
       </div>
       <div className="flex flex-col items-center">
-        <div className="flex items-center space-x-6">
+        <div className="flex items-center space-x-4 sm:space-x-6">
           <Shuffle size={20} className="text-gray-400 hover:text-white" />
           <SkipBack size={20} className="text-gray-400 hover:text-white" />
           <button className="rounded-full bg-white p-2 text-black transition hover:scale-105">

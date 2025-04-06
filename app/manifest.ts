@@ -2,13 +2,13 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "XO Spotify",
-    short_name: "XO",
-    description: "Spotify Clone.",
+    name: "Aint Spotify",
+    short_name: "AS",
+    description: "A Spotify clone.",
     id: "/",
     start_url: "/",
-    theme_color: "#000000",
-    background_color: "#000000",
+    theme_color: "#ffffff",
+    background_color: "#ffffff",
     orientation: "any",
     display: "standalone",
     icons: [

@@ -2,23 +2,23 @@ import { Home, Search, Library, PlusSquare, Heart, Download } from "lucide-react
 import { ScrollArea } from "@/components/ui/scroll-area";
 
 const playlists = [
-  "Chill Vibes",
-  "Workout Mix",
+  "Straight Edge Revenge",
+  "Pump It Up Jams",
   "90s Throwback",
-  "Indie Acoustic",
-  "Focus Playlist",
-  "Road Trip Tunes",
-  "Rainy Day Jazz",
-  "Summer Hits",
-  "Classical Essentials",
-  "Hip Hop Favorites",
+  "Yallternative",
+  "Hip Hop Essentials",
+  "Hard Focus Beats",
+  "Beatdown Anthems",
+  "Guilty Pleasure Party",
+  "Chill AF Vibes",
+  "Sadboi Summer",
 ];
 
 export function Sidebar() {
   return (
-    <div className="flex h-screen w-60 flex-col bg-black text-gray-300">
+    <div className="flex h-screen w-full flex-col bg-black text-gray-300 sm:w-60">
       <div className="p-6">
-        <h1 className="mb-6 text-2xl font-bold text-white">Spotify</h1>
+        <h1 className="mb-6 text-2xl font-bold text-white">Aint Spotify</h1>
         <nav>
           <ul className="space-y-2">
             <li>

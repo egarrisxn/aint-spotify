@@ -2,8 +2,8 @@ import { siteUrl } from "./env";
 import type { SiteConfig } from "./types";
 
 export const siteConfig: SiteConfig = {
-  title: "XO Spotify",
-  description: "Spotify Clone.",
+  title: "Aint Spotify",
+  description: "A Spotify clone.",
   url: siteUrl,
   ogImage: `${siteUrl}/opengraph-image.png`,
   twitterImage: `${siteUrl}/twitter-image.png`,
