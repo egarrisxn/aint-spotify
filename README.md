@@ -2,6 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/aint-spotify) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/aint-spotify)
 
+![aint-spotify](https://github.com/user-attachments/assets/658486d2-4ca1-40f1-a719-7d17f6a74e28)
+
 ## **Overview**
 
 This is a fun little Spotify clone.
