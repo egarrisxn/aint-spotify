@@ -6,7 +6,7 @@
 
 ## **Overview**
 
-This is a fun little Spotify clone.
+This will be a fun little spotify clone. Currently, it is just the shell.
 
 ## **Technologies**
 
